@@ -1,0 +1,1 @@
+{"description": "", "tags": [], "size": {"height": 1000, "width": 1000}, "objects": [{"classId": 1, "description": "", "geometryType": "polygon", "tags": [], "classTitle": "agricultural_areas", "points": {"exterior": [[0, 0], [0, 999], [999, 999], [999, 0]], "interior": []}}]}
