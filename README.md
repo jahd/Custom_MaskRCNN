@@ -1,3 +1,15 @@
+# Amos - MaskRCNN on satellite imagery
+This is a repository based on soumyaiitkgp/Custom_MaskRCNN repository which is a fork from Matterport Maskrcnn repository. Our goal is to detect objects through semantic segmentation.
+Those are the classes we are trying to detect : 
+ - artificial_surfaces
+ - agricultural_areas
+ - forests
+ - water
+
+ultimately, we want to compare two images from a different date but with the same localization in order to understand whether there is more artificial_surfaces or not.
+
+In order to do so, we are using a custom Dataset made up of satellite imagery to train our MaskRCNN model.
+
 # MaskRCNN custom dataset module
 
 This is a repository based on Matterport Maskrcnn repository for the application of custom MaskRCNN to custom datasets/application like weed detection, day to day object detection etc. Find the module in the folder ['samples/custom'](https://github.com/soumyaiitkgp/Custom_MaskRCNN/tree/master/samples/custom).
